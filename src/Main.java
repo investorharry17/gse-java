@@ -1,10 +1,18 @@
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scannerObject = new Scanner(System.in);
 
-        System.out.println("Hello and welcome!");
+        System.out.println("Input your name");
+        String name = scannerObject.nextLine();
+        System.out.println("input your age");
+        int age = scannerObject.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("i = " + i);
-        }
+        System.out.println("Hello " + name + " you are " + age + "years old ");
+
     }
 }
+
+// group 2
